@@ -3,21 +3,21 @@ this a devops based home renting application
 
 in this  project we simply create a image of home renting website using docker and push it on Dockerhub
 
-step 1
+// step 1
 
 push your code to github 
 
 and also put Dockerfile
 
-step 2
+// step 2
 
 Login to aws console 
 
-step 3
+// step 3
 
 Launched ec2 instance and access it using putty and puttygen
 
-step 4 
+// step 4 
 
 then install the docker (yum install docker,service docker start )
 
@@ -27,7 +27,7 @@ build image ( docker build -t <image name> .)
 
 expose to port 8000 and access it from internet ( docker run -d -p 8000:80  <image name> )
 
-step 5 
+// step 5 
 
 then login to docker ( docker login)
 
@@ -44,7 +44,7 @@ push image image to dockerhub (docker push username/repo name:image name )
 
 
 
-
+.............................
 
 
 ![Screenshot (50)](https://user-images.githubusercontent.com/105406469/227429060-7c413b98-4c2d-4a98-bdec-ca2c2c86d697.png)

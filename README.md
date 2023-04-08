@@ -1,7 +1,7 @@
 # house
-this a devops based home renting application
+this is a devops based home renting application
 
-in this  project we simply create a image of home renting website using docker and push it on Dockerhub
+in this  project we simply create a image ( nginx ) of home renting website using docker and push it on Dockerhub
 
 // step 1
 
@@ -97,3 +97,4 @@ push image image to dockerhub (docker push username/repo name:image name )
 
 ![Screenshot (79)](https://user-images.githubusercontent.com/105406469/227429463-c9a49f57-3882-4553-a917-fb6cbf685567.png)
 
+THANK YOU ..........
